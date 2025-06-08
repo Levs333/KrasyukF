@@ -1,0 +1,112 @@
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.developer {
+    text-align: center;
+    margin: 10px 0;
+}
+.navigation {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+.two-columns {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.centered-image {
+    text-align: center;
+}
+.game-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 10px;
+}
+.video-row {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 10px;
+}
+.video-placeholder {
+    width: 150px; /* Increased size */
+    height: 150px;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+footer {
+    background-color: #0284cb;
+    padding: 10px;
+    text-align: center;
+}
+.video-placeholder img {
+    width: 150px; /* Increased size */
+    height: 150px;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+header {
+    background-color: #0284cb;
+}
+nav a {
+    text-decoration: none;
+    background-color: #0284cb;
+    color: chartreuse;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 6px double chartreuse;
+}
+nav a:hover {
+    text-decoration: none;
+    background-color: chartreuse;
+    color: #0284cb;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 6px double #0284cb;
+    transition: 1s linear;
+}
+img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px 5px green;
+    transition: 1s linear;
+}
+/* New styles for centering main and increasing sizes */
+main {
+    max-width: 1200px; /* Limits width for better centering */
+    margin: 0 auto; /* Centers the main element */
+    padding: 20px;
+}
+main h2 {
+    font-size: 2.5em; /* Increased heading size */
+}
+main p {
+    font-size: 1.5em; /* Increased paragraph text size */
+}
+.two-columns img {
+    width: 250px; /* Increased image size in section 1 */
+}
+.centered-image iframe {
+    width: 600px; /* Increased trailer size */
+    height: 400px;
+}
+.game-grid .game-item img {
+    width: 150px; /* Increased image size in game grid */
+}
+.game-grid .game-item p {
+    font-size: 1.5em; /* Increased text size in game grid */
+}
